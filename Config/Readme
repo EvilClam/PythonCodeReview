@@ -1,0 +1,8 @@
+The format of the config.cof file will look  as follow.
+<userID>:<'url'| 'path'>:<Parameter1>:<Parameter2>:<Tag name>;
+<userID> a unique integer value.
+<Parameter1> is the url that points to the repository. e.g. github.com/EvilClam/PythonCodeReview.git
+<Parameter2> is the url that points to local repository e.g /home/git/Foo/
+<Tag name> is the tag that points to the version that should be used.
+Note underscore signifies a unused parameter.
+If tag name is unused then the current head will be used. 
